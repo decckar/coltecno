@@ -329,6 +329,12 @@ span.org{
 .ca-item-3 .ca-icon{
 	background-image: url(../images/img02.png);
 }
+.ca-item-4 .ca-icon{
+	background-image: url(../images/img03.png);
+}
+.ca-item-5 .ca-icon{
+	background-image: url(../images/img04.png);
+}
 .ca-item-11 .ca-icon{
 	background-image: url(../images/img11.png);
 }
@@ -352,6 +358,21 @@ span.org{
 }
 .ca-item-18 .ca-icon{
 	background-image: url(../images/img18.png);
+}
+.ca-item-30 .ca-icon{
+	background-image: url(../images/img30.png);
+}
+.ca-item-31 .ca-icon{
+	background-image: url(../images/img31.png);
+}
+.ca-item-32 .ca-icon{
+	background-image: url(../images/img32.png);
+}
+.ca-item-33 .ca-icon{
+	background-image: url(../images/img33.png);
+}
+.ca-item-34 .ca-icon{
+	background-image: url(../images/img34.png);
 }
 .ca-item h3{
 	padding:30px 0 5px;
@@ -806,16 +827,13 @@ h2.resp-accordion {
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
-	cursor: pointer;
 	padding: 13px 0px 2px 0px;
 	color: #333;
 	font-family: 'Roboto', sans-serif;
 	font-size:1em;
 	margin-bottom: 3%;
 }
-.grid_1_of_4 h4:hover {
-	color: #FF6600;
-}
+
 .grid_1_of_4 p {
 	font-size:0.89em;
 	color: #555;
