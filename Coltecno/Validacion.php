@@ -1,8 +1,6 @@
-<html>
- <head>
-  <title>Prueba de PHP</title>
- </head>
- <body>
- <?php echo '<p>Hola Mundo</p>'; ?>
- </body>
-</html>
+<?php 
+$n1 = $_GET['N1']; 
+$n2 = $_GET['N2']; 
+$Suma = $n1 + $n2; 
+echo "La suma es igual a: $Suma";
+?>
