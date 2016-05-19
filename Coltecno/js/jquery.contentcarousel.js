@@ -255,3 +255,15 @@
 	};
 	
 })(jQuery);
+
+function habilita(form)
+{ 
+form.intereses[0].disabled = false;
+form.intereses[1].disabled = false;
+}
+
+function deshabilita(form)
+{ 
+form.intereses[0].disabled = true;
+form.intereses[1].disabled = true;
+}

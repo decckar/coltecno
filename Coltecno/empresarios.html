@@ -6,6 +6,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
 </head>
 
 <body>
@@ -19,8 +20,7 @@
 					 <li><a href="acercade.html"><span>Acerca de Coltecno SAS </span></a></li>
 					 <li class="active"><a href="empresarios.html"><span>Empresarios Independientes</span></a></li>
                      <li><a href="clientes.html"><span>Clientes Corporativos</span></a></li>
-                     <li><a href="catalogo.html"><span>Catálogo de productos</span></a></li>
-					 <li class="has-sub"><a href="carro.html"><span>Carro de compras</span></a></li>
+                     <li class="has-sub"><a href="catalogo.html"><span>Catálogo de productos</span></a></li>
 					 <li class="last"><a href="destacados.html"><span>Productos Destacados</span></a></li>
 				</ul>
 		    </div>
@@ -38,15 +38,111 @@
 <br>
 <br>
 
+
+    
+    
+    
+
+
+<div class="wrap">
+	<div class="col">
+		  <div class="contact-form" >
+			  	<h3 class="txt-center">FORMULARIO DE REGISTRO</h3>
+                    <br>
+					    <form method="post" action="acercade.html">
+				    	    <div>
+						    	<span>
+                                <label>Cliente</label>
+						    	<input name="tipo" type="radio" checked onClick="habilita(this.form)">
+                                <label>Proveedor</label>
+						    	<input name="tipo" type="radio" onClick="deshabilita(this.form)">
+                                </span>
+						    </div>  
+                          
+                          
+                            <div>
+						    	<span><label>Razón Social</label></span>
+						    	<span><input name="nombre_empresa" type="text" class="textbox" maxlength="50" required></span>
+						    </div>
+                          
+					    	<div>
+						    	<span><label>Nombre Representante Legal</label></span>
+						    	<span><input name="nombre_usuario" type="text" class="textbox" maxlength="50" required></span>
+						    </div>                            
+						    <div>
+						     	<span><label>NIT Empresa</label></span>
+						    	<span><input name="nit" type="text" class="textbox" maxlength="15" required></span>
+						    </div>						    
+					    	<div>
+						    	<span><label>Dirección</label></span>
+						    	<span><input name="dirección" type="text" class="textbox" maxlength="50" required></span>
+						    </div> 
+                            <div>
+						    	<span><label>País</label></span>
+						    	<span><input name="pais" type="text" class="textbox" maxlength="50" required></span>
+						    </div> 
+                            <div>
+						    	<span><label>Departamento</label></span>
+						    	<span><input name="depto" type="text" class="textbox" maxlength="50" required></span>
+						    </div>                                                          
+					    	<div>
+						    	<span><label>Ciudad</label></span>
+						    	<span><input name="ciudad" type="text" class="textbox" maxlength="50" required></span>
+						    </div>                              
+                            
+                            
+                            <div>
+						    	<span><label>E-Mail</label></span>
+						    	<span><input name="correo" type="email" class="textbox" maxlength="50" required></span>
+						    </div>
+						    <div>
+						     	<span><label>Teléfono Fijo</label></span>
+						    	<span><input name="telfijo" type="tel" class="textbox" maxlength="12" required></span>
+						    </div>
+						    <div>
+						     	<span><label>Teléfono Móvil</label></span>
+						    	<span><input name="telcelular" type="tel" class="textbox" maxlength="15" required></span>
+						    </div> 
+                            <div>
+						    	<span><label>Sitio Web</label></span>
+						    	<span><input name="sitiow" type="text" class="textbox" maxlength="50" required></span>
+						    </div>                            
+						   <div align="right">
+                           <input type="submit" value="Enviar">
+                           <input type="reset" value="Borrar">
+                           <input type="reset" value="Cancelar" onClick="history_back">
+                           </div>
+                          
+			        </form>
+		  </div>
+	</div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<br> 
+<div class="clear">
+</div>
+
 <div class="footer">
 	<div class="wrap">
 		<div class="footer-border">
         	<br>
             <br>
-				<div align="center">
-                    <a href="https://www.facebook.com/ColtecnoSAS/" target="_blank"><img src="images/fb.png" alt="" align="middle"></a>
+				<div>
+                  <p class="txt-center">  
+                  	<a href="https://www.facebook.com/ColtecnoSAS/" target="_blank"><img src="images/fb.png" alt=""></a>
 					<a href="https://twitter.com/ColTecno" target="_blank"><img src="images/tw.png" alt=""></a>
-				</div>
+                  </p>
+                </div>
  		</div>
 	</div>
 			<div class="clear">
@@ -61,7 +157,4 @@
 </div>
 </body>
 </html>
-
-    	
-    	
-                
+         

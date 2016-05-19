@@ -1,10 +1,7 @@
-/*! A fix for the iOS orientationchange zoom bug.
- Script by @scottjehl, rebound by @wilto.
- MIT / GPLv2 License.
-*/
+
 (function(w){
 	
-	// This fix addresses an iOS bug, so return early if the UA claims it's something else.
+
 	var ua = navigator.userAgent;
 	if( !( /iPhone|iPad|iPod/.test( navigator.platform ) && /OS [1-5]_[0-9_]* like Mac OS X/i.test(ua) && ua.indexOf( "AppleWebKit" ) > -1 ) ){
 		return;
@@ -39,7 +36,7 @@
 		y = Math.abs( aig.y );
 		z = Math.abs( aig.z );
 				
-		// If portrait orientation and in one of the danger zones
+
         if( (!w.orientation || w.orientation === 180) && ( x > 7 || ( ( z > 6 && y < 8 || z < 8 && y > 6 ) && x > 5 ) ) ){
 			if( enabled ){
 				disableZoom();
