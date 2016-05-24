@@ -6,6 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
+<style type="text/css">
+	
+	table, th, td {
+     border: 1px solid black;
+}
+
+</style>
 <body>
 <div class="product-header">	
   <div class="wrap"> 
@@ -65,7 +72,6 @@ echo "<td>".$rows["tipo"]."</td>";
 echo "<td>".$rows["marca"]."</td>";
 echo "<td>".$rows["referencia"]."</td>";
 echo "<td>".$rows["nparte"]."</td>";
-echo "<td>".$rows["Familia"]."</td>";
 echo "<td>".$rows["precio"]."</td>";
 echo "<td>".$rows["caracteriztica"]."</td>";
 echo "<td>".$rows["img"]."</td></tr>";
