@@ -8,8 +8,29 @@
 </head>
 <style type="text/css">
 	
-	table, th, td {
+th {
      border: 1px solid black;
+     color: red;
+     font-size: 90%; 
+     font-weight: bold;
+     
+}
+
+td {
+
+	border: 1px solid black;
+	color: black;
+	font-size: 90%; 
+
+
+}
+
+table {
+
+	border: 1px solid black;
+	color: black; 
+	font-size: 90%; 
+
 }
 
 </style>
