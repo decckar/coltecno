@@ -6,34 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
-<style type="text/css">
-	
-th {
-     border: 1px solid black;
-     color: red;
-     font-size: 90%; 
-     font-weight: bold;
-     
-}
-
-td {
-
-	border: 1px solid black;
-	color: black;
-	font-size: 90%; 
-
-
-}
-
-table {
-
-	border: 1px solid black;
-	color: black; 
-	font-size: 90%; 
-
-}
-
-</style>
 <body>
 <div class="product-header">	
   <div class="wrap"> 
@@ -45,7 +17,7 @@ table {
 					 <li><a href="acercade.html"><span>Acerca de Coltecno SAS </span></a></li>
 					 <li><a href="empresarios.html"><span>Empresarios Independientes</span></a></li>
                      <li><a href="clientes.html"><span>Clientes Corporativos</span></a></li>
-                     <li class="active"><a href="catalogo.html"><span>Catálogo de productos</span></a></li>
+                     <li class="active"><a href="catalogo.php"><span>Catálogo de productos</span></a></li>
 					 <li class="last"><a href="destacados.html"><span>Productos Destacados</span></a></li>
 				</ul>
 		    </div>
@@ -100,7 +72,6 @@ echo "<td>".$rows["img"]."</td></tr>";
 echo "</table>";
 ?> 
 
-</form>			
 <br>
 <br>
 
