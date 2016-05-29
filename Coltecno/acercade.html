@@ -18,7 +18,7 @@
 					 <li class="active"><a href="acercade.html"><span>Acerca de Coltecno SAS </span></a></li>
 					 <li><a href="empresarios.html"><span>Empresarios Independientes</span></a></li>
                      <li><a href="clientes.html"><span>Clientes Corporativos</span></a></li>
-                     <li class="has-sub"><a href="catalogo.html"><span>Catálogo de productos</span></a></li>
+                     <li class="has-sub"><a href="catalogo full.html"><span>Catálogo de productos</span></a></li>
 					 <li class="last"><a href="destacados.html"><span>Productos Destacados</span></a></li>
 				</ul>
 		    </div>
@@ -59,27 +59,27 @@
 					    <form method="post" action="InsertarS.php">
 					    	<div>
 						    	<span><label>Codigo del Cliente</label></span>
-						    	<span><input name="Id" type="text" class="textbox" required></span>
+						    	<span><input name="Id" type="number" class="textbox" maxlength="3" required></span>
 						    </div>
 					    	<div>
 						    	<span><label>Nit</label></span>
-						    	<span><input name="Nit" type="text" class="textbox" required></span>
+						    	<span><input name="Nit" type="number" class="textbox" maxlength="15" required></span>
 						    </div>
 					    	<div>
 						    	<span><label>Nombre</label></span>
-						    	<span><input name="Nombre" type="text" class="textbox" required></span>
+						    	<span><input name="Nombre" type="text" class="textbox" maxlength="50" required></span>
 						    </div>
 						    <div>
 						    	<span><label>Tipo</label></span>
-						    	<span><input name="Tipo" type="text" class="textbox" required></span>
+						    	<span><input name="Tipo" type="text" class="textbox" maxlength="9" required></span>
 						    </div>
 						    <div>
 						    	<span><label>E-Mail</label></span>
-						    	<span><input name="Email" type="text" class="textbox" required></span>
+						    	<span><input name="Email" type="email" class="textbox" maxlength="50" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Celular</label></span>
-						    	<span><input name="Celular" type="text" class="textbox" required></span>
+						    	<span><input name="Celular" type="number" class="textbox" maxlength="15" required></span>
 						    </div>
 						    <div>
 						    	<span><label>Mensaje</label></span>

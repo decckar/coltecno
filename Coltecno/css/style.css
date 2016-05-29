@@ -1066,6 +1066,22 @@ p.text1 {
 	-o-box-shadow: 0 0 5px #AAA;
 	-webkit-appearance:none;
 }
+.contact-form input[type="password"],.contact-form textarea{
+	padding:8px;
+	display:block;
+	width:98%;
+	background:#fcfcfc;
+	border: none;
+	outline:none;
+	color:#464646;
+	font-size:0.8125em;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 5px #AAA;
+	-webkit-box-shadow: 0 0 5px #AAA;
+	-moz-box-shadow: 0 0 5px #AAA;
+	-o-box-shadow: 0 0 5px #AAA;
+	-webkit-appearance:none;
+}
 .contact-form input[type="email"],.contact-form textarea{
 	padding:8px;
 	display:block;
