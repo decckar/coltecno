@@ -3,10 +3,14 @@
 <head>
 <title>Cátálogo de Productos Login</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/ListaDprecios.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
+
+
 <body>
+
 <div class="product-header">	
   <div class="wrap"> 
 	  <div class="header-top">
@@ -31,7 +35,7 @@
 <br>
 <br>
 
-<h1 class="txt-center"><span class="org">INGRESO AL CATÁLOGO DE PRODUCTOS</span></h1>
+<h1 class="txt-center"><span class="normal">INGRESO AL CATÁLOGO DE PRODUCTOS</span></h1>
 
 <?php 
 //Conexion a la base de datos 
@@ -47,7 +51,7 @@ $resultado=mysql_query($consulta,$conexion);
 
 echo "<table>";
 echo "<tr>
-			<th>ID</th>
+			
 			<th>FAMILIA</th>
 			<th>TIPO</th>
 			<th>MARCA</th>
@@ -55,19 +59,18 @@ echo "<tr>
 			<th>NUMERO DE PARTE</th>
 			<th>PRECIO</th>
 			<th>CARACTERIZTICA</th>
-			<th>IMAGEN</th>";
+			";
 
 while($rows=mysql_fetch_array($resultado))
 { 
-echo "<tr><td>".$rows["Id"]."</td>"; 
-echo "<td>".$rows["Familia"]."</td>"; 
+echo "<tr><td>".$rows["Familia"]."</td>"; 
 echo "<td>".$rows["tipo"]."</td>";
 echo "<td>".$rows["marca"]."</td>";
 echo "<td>".$rows["referencia"]."</td>";
 echo "<td>".$rows["nparte"]."</td>";
 echo "<td>".$rows["precio"]."</td>";
 echo "<td>".$rows["caracteriztica"]."</td>";
-echo "<td>".$rows["img"]."</td></tr>";
+//echo "<td>".$rows["img"]."</td></tr>";
 } 
 echo "</table>";
 ?> 
