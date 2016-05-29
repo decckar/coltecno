@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
+
 <div class="product-header">	
   <div class="wrap"> 
 	  <div class="header-top">
@@ -48,32 +49,41 @@
                 </div>
  	 	 </div>
  	 </div>
+
 <div class="product-main">
 	<div class="wrap">
 		 <div class="section group">
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
 				  	<h3>Contacto</h3>
-					    <form method="post" action="acercade.html">
+					    <form method="post" action="InsertarS.php">
+					    	<div>
+						    	<span><label>Codigo del Cliente</label></span>
+						    	<span><input name="Id" type="text" class="textbox" required></span>
+						    </div>
 					    	<div>
 						    	<span><label>Nit</label></span>
-						    	<span><input name="userName" type="text" class="textbox" required></span>
+						    	<span><input name="Nit" type="text" class="textbox" required></span>
 						    </div>
 					    	<div>
 						    	<span><label>Nombre</label></span>
-						    	<span><input name="userName" type="text" class="textbox" required></span>
+						    	<span><input name="Nombre" type="text" class="textbox" required></span>
+						    </div>
+						    <div>
+						    	<span><label>Tipo</label></span>
+						    	<span><input name="Tipo" type="text" class="textbox" required></span>
 						    </div>
 						    <div>
 						    	<span><label>E-Mail</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox" required></span>
+						    	<span><input name="Email" type="text" class="textbox" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Celular</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox" required></span>
+						    	<span><input name="Celular" type="text" class="textbox" required></span>
 						    </div>
 						    <div>
 						    	<span><label>Mensaje</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
+						    	<span><textarea name="Mensaje"> </textarea></span>
 						    </div>
 						   <div align="right">
                            <input type="submit" value="Enviar">
