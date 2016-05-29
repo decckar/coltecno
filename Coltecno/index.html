@@ -17,22 +17,6 @@
 </head>
 <body>
 
-<div id="cuentavisitas"></div>
-<script>
-yu=function(id)
-	{return document.getElementById(id);}
-	if(localStorage)
-{
-	if(localStorage['visitas']==undefined){
-	localStorage['visitas']=0;
-}
-var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
-var num=localStorage['visitas'];
-var mensaje="Hasta ahora has visitado mi pagina " + num + " Veces !";
-yu('cuentavisitas').innerHTML=mensaje;}
-
-</script>
-
 <div class="product-header">	
   <div class="wrap"> 
 	  <div class="header-top">
@@ -325,6 +309,22 @@ yu('cuentavisitas').innerHTML=mensaje;}
 	      	<div class="copy">
 		      <p class="copy">© 2016 Designed by Team - Programando...</p>
 			</div>
+	<div id="cuentavisitas" align="center" class="copy";></div>
+<script>
+yu=function(id)
+	{return document.getElementById(id);}
+	if(localStorage)
+{
+	if(localStorage['visitas']==undefined){
+	localStorage['visitas']=0;
+}
+var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+var num=localStorage['visitas'];
+var mensaje="! Hasta ahora has visitado mi pagina " + num + " Veces !";
+yu('cuentavisitas').innerHTML=mensaje;}
+
+</script>
+
 </div>
 </body>
 </html>
