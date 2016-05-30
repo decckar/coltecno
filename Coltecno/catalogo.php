@@ -21,7 +21,7 @@
 					 <li><a href="acercade.html"><span>Acerca de Coltecno SAS </span></a></li>
 					 <li><a href="empresarios.html"><span>Empresarios Independientes</span></a></li>
                      <li><a href="clientes.html"><span>Clientes Corporativos</span></a></li>
-                     <li class="active"><a href="catalogo.php"><span>Catálogo de productos</span></a></li>
+                     <li class="has-sub"><a href="catalogo.php"><span>Catálogo de productos</span></a></li>
 					 <li class="last"><a href="destacados.html"><span>Productos Destacados</span></a></li>
 				</ul>
 		    </div>
@@ -35,7 +35,7 @@
 <br>
 <br>
 
-<h1 class="txt-center"><span class="normal">INGRESO AL CATÁLOGO DE PRODUCTOS</span></h1>
+<h1 class="txt-center"><span class="org">LISTA DE PRECIOS PRODUCTOS</span></h1>
 
 <?php 
 //Conexion a la base de datos 
